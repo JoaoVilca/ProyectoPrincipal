@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tablas</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Configuraciones de tablas</h2>
+        <table
+          border="1"
+          bgcolor="3DC7A7"
+          background="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png"
+          borderColor="white"
+          cellpadding="100"
+          width="500"
+          heigth="400"
+        >
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Edad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Diego</td>
+              <td>Puma</td>
+              <td>16</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+          <h2>RowSpan y el colspan</h2>
+          <table border="1">
+              <thead>
+                  <tr>
+                      <th>Curso</th>
+                      <th>Duracion</th>
+                      <th>Profesor</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td rowspan="2">Algoritmos</td>
+                      <td>3 meses</td>
+                      <td>Juanito</td>
+                  </tr>
+                  <tr>
+                      <td>Arduino</td>
+                      <td>1 mes</td>
+                      <td>Jorge Garnica</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+    </main>
+  </body>
+</html>

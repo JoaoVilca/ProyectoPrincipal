@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <a href="iniciar.html">Iniciar Sesion</a>
+    <a href="#">Registrarse</a>
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <label for="inputNombre">Nombre completo:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="inputNombre"
+              placeholder="Ingrese su nombre"
+              minlength="4"
+              required
+              maxlength="20"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="inputEdad">Edad:</label>
+          </td>
+          <td>
+            <input type="number" id="inputEdad" placeholder="Ingrese su edad" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="inputFechadeNacimiento">Fecha de nacimiento</label>
+          </td>
+          <td>
+            <input type="date" id="inputFechadeNacimiento"
+            min="0"
+            max="10"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="inputColor">Color</label>
+          </td>
+          <td>
+            <input type="color" id="inputColor" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Sexo</label>
+          </td>
+          <td>
+            <label for="">M</label>
+            <input type="radio" id="inputRadioM" name="genero" />
+
+            <label for="">F</label>
+            <input type="radio" id="inputRadioF" name="genero" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="inputEstadoCivil">Estado civil</label>
+          </td>
+          <td>
+            <label for="">Casado</label>
+            <input type="radio" name="civil" id="radioCasao" />
+
+            <label for="">Soltero</label>
+            <input type="radio" name="civil" id="radioSoltero" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Idiomas</label>
+          </td>
+          <td>
+            <label for="">Ingles</label>
+            <input type="checkbox" id="checkIngles" />
+            <label for="">Español</label>
+            <input type="checkbox" id="checkEspañol" />
+            <label for="">Portugues</label>
+            <input type="checkbox" id="checkPortugues" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="inputEmail">Email</label>
+          </td>
+          <td>
+            <input
+              type="email"
+              value="@gmail.com"
+              placeholder="Ingrese su email"
+              id="inputEmail"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="inputPassword">Password</label>
+          </td>
+          <td>
+            <input type="password" id="inputPassword" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="textareaComentarios">Comentarios</label>
+          </td>
+          <td>
+            <textarea
+              name=""
+              id="textareaComentarios"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Acciones</label>
+          </td>
+          <td>
+            <input type="submit" value="Registrarme" />
+            <input type="submit" value="Enviar" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="slcDepartamento">Seleccione su Departamento</label>
+          </td>
+          <td>
+            <select name="" id="slcDepartamento">
+              <option value="">Seleccione Departamento</option>
+              <option value="">Arequipa</option>
+              <option value="">Lima</option>
+              <option value="">Tacna</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
