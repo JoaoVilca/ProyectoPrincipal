@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #ccc3c3;
+}
+.card{
+    width: 200px;
+    background-color: #ccc3c3;
+    padding: 20px;
+    margin: 20px;
+    /* border: 1px solid #aaa; */
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: #888 5px 5px 10px, white -5px -5px 10px;
+
+    /* transition: {1} {2} {3} {4} */
+    /* {1} nombre de la propiedad que va aser afectada */
+    /* {2} tiempo que va a durar la transformacion */
+    /* {3} funcion o curva de Bezier */
+    /* {4} tiempo muerto antes de iniciar la transformacion */
+    transition: transform 0.5s ease 0.1s;
+    /* transition: background-color 0.5s ease 0.1s; */
+}
+/* La transicion es el tiempo que se va a demorar
+un elemento en pasar de un estado a otro.
+Por ejemplo, si un elemento:
+- cambia de color
+- crece en ancho y/o alto
+- cambia de posicion
+- rota
+- etc */
+
+.card:hover{
+    transform: scale(1.05, 1.05);
+    /* background-color: grey; */
+}

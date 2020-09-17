@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.card,
+.card2,
+.card3,
+.card4{
+    width: 200px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    /* border: 1px solid #aaa; */
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: #888 5px 5px 10px, white -5px -5px 10px;
+}
+.card:hover{
+    /* scale indica cuanto va a crecer o decrecer el elemento en el eje x e y*/
+    transform: scale(1.05,1.05);
+    
+}
+.card2:hover{
+    /* rotate gira el elemento en grados */
+    transform: rotate(10deg);
+}
+.card3:hover{
+    /* translate traslada el elemento especificando los pixeles, etc en el eje x e y */
+    transform: translate(10px,20px);
+}

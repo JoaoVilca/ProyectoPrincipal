@@ -1,0 +1,21 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container{
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    background-color: #302f2f;
+    align-items: center;
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  background: -webkit-linear-gradient(top left, #f85c80, #346eb9, #4ebdcc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

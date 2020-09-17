@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: #bbb;
+}
+.seccion1{
+    /* blur es un desenfoque que admite valores enteros */
+    /* filter: blur(4px); */
+    /* greyscale da */
+    /* filter: grayscale(1); */
+}
+
+/* hover coloca estilos cuando el mause esta sobre un elemento */
+.seccion1:hover{
+    /* brightness aplixa brillo a un elemento y acepta valores entre 0 y 10 */
+    /* el valor 1 es el brillo normal de la imagen */
+    /* filter: brightness(0.7) */
+    /* opacity define la transparencia de un elemento */
+    /* 0 es transparente y 1 es nada transparente */
+    filter: opacity(0.5);
+}
