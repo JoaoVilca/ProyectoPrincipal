@@ -28,6 +28,24 @@ monto = monto - b50 * 50;
 b20 = (monto - (monto % 20)) / 20;
 monto = monto - b20 * 20;
 
+// b200 = Math.trunc(monto / 200);
+// acumulador = (monto - (b200 * 200));
+
+// b100 = Math.trunc(acumulador / 100);
+// acumulador = acumulador - (b100 * 100);
+
+// b50 = Math.trunc(acumulador / 50);
+// acumulador = acumulador - (b50 * 50);
+
+// b20 = Math.trunc(acumulador / 20);
+// acumulador = acumulador - (b20 * 20);
+
+// console.log("Billetes de 200: "+ b200);
+// console.log("Billetes de 100: "+ b100);
+// console.log("Billetes de 50: "+ b50);
+// console.log("Billetes de 20: "+ b20);
+// console.log("Quedan: "+acumulador);
+
 console.log(`Billetes de 200 x ${b200}`);
 console.log(`Billetes de 100 x ${b100}`);
 console.log(`Billetes de 50 x ${b50}`);
